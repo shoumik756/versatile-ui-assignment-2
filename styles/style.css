@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      background-color: black;
+  }
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  main>section {
+    margin-top: 100px;
+  }
+  
+  /* Shared style */
+  .display-flex {
+    display: flex;
+  }
+  
+  .btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 52px;
+    background-color: rgba(255, 84, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 16px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    gap: 8px;
+  }
+  
+  /* nav bar style */
+  
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .nav-item {
+    list-style: none;
+    margin-right: 47px;
+    
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(66, 66, 71, 1);
+    font-size: 1.125rem;
+    
+  }
+.nav-border{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    padding-left: 3px;
+    border-radius: 39px;
+  
+
+}
+.fitness {
+    color: rgba(255, 84, 0, 1);
+    font-size: 2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #home{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 15px 30px;
+    border-radius: 46px;
+    color: white;
+  }
