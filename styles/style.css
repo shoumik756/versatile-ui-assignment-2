@@ -11,8 +11,8 @@
     background-color: black;
     max-width: 1140px;
     margin: 0 auto;
-    background-image: linear-gradient(0deg,rgba(119, 119, 119, 0) 0%,
-    rgba(17, 17, 17, 1) 100%);
+    background-image: linear-gradient(180deg,rgba(113, 113, 113, 0.293) 0%,
+    rgb(0, 0, 0) 100%);
    
     background-repeat: no-repeat;
     
@@ -34,7 +34,7 @@
     margin: 0 auto;
   } */
 
-main>section {
+main > section {
     margin-top: 100px;
 }
 
@@ -80,7 +80,7 @@ main>section {
 .navbar {
     justify-content: space-between;
     align-items: center;
-    padding: 55px 0;
+    padding: 50px 0;
     /* max-width: 1440px; */
     margin: 0 auto;
 }
@@ -101,7 +101,7 @@ main>section {
 
 .nav-border {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 20px 0;
+    padding: 15px 0;
     padding-left: 3px;
     border-radius: 39px;
 
@@ -118,7 +118,7 @@ main>section {
 
 #home {
     background-color: rgba(230, 83, 60, 1);
-    padding: 15px 30px;
+    padding: 12px 30px;
     border-radius: 46px;
     color: white;
 }
@@ -210,4 +210,56 @@ main>section {
 #vdo3 #video {
     font-size: 1rem;
     color: rgba(239, 237, 232, 0.65);
+}
+/* change your habits section style */
+.habit-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.habit-content h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 14px;
+}
+.habit-content p{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 14px;
+    text-align: center;
+}
+.main-habit-img-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    margin-top: 58px;
+}
+
+.habit-img-content{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.habit-img-content img{
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+}
+
+.habit-img-content h4{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+.habit-img-content p{
+    font-size: 0.875rem;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
 }
