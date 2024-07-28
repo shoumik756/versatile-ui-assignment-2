@@ -155,7 +155,17 @@ header{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+.banner-img{
+    background-image: url("../images/Images\ 2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    width: 350px;
+}
+.banner-img h1{
+    color: white;
+}
 #vdo1 {
     background-color: rgba(48, 48, 48, 0.54);
     border: 1px solid rgba(255, 255, 255, 0.1);
