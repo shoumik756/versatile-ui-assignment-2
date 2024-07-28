@@ -412,16 +412,29 @@ main{
         position: absolute;
         margin-top: -570px;
         margin-left: 190px;
-        width: 154px;
-        height: 70px;
+        width: 130px;
+        height: 50px;
     }
     #vdo1{
         position: absolute;
         margin-top: -270px;
-        margin-left: -10px;
+        margin-left: -0px;
         width: 180px;
-        height: 70px;
+        height: 40px;
     }
+    #vdo #no{
+        font-size: 1.133rem;
+    }
+    #vdo #video{
+        font-size: 0.75rem;       
+    }
+    #vdo3 #no{
+        font-size: 1.875rem;
+    }
+    #vdo3 #video{
+        font-size: 0.62rem;       
+    }
+
     .main-habit-img-content{
         grid-template-columns: repeat(1,1fr);
     }
