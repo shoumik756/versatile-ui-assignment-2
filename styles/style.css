@@ -34,7 +34,7 @@
     
   } */
 
-/* main > section {
+ /* main > section {
     margin-top: 100px;
 } */
 
@@ -316,8 +316,133 @@ header{
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 34px;
 }
+.run-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .run-img img{
     width: 366px;
-    height: 312px;
+    height: 316px;
     border-radius: 18px;
+}
+/* BMI cal section style */
+#sec-3{
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.menu-icon{
+    color: white;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media screen and (max-width: 576px) {
+    .navbar{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 20px;
+    }
+     header{
+        justify-content: space-between;
+        background: linear-gradient(180deg, rgba(17, 17, 17, 1) 100%, rgba(119, 119, 119, 0) 0%);
+     }
+     main{
+        margin: 0 20px;
+     }
+     .banner-btn{
+        justify-content: space-between;
+        margin-bottom: 48px;
+     }
+     .btn-primary, .btn-primary1{
+        width: 180px;
+        height: 50px;
+     }
+     .nav-border{
+        display: none;
+     }
+     .menu-icon{
+        color: white;
+        display: flex;
+    }
+    .banner-content h1{
+        font-size: 2.25rem;
+        line-height: 120%;
+    }
+    #shape{
+        font-size: 3.25rem;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 0 20px;
+        /* margin: 0 20px; */
+    }
+    #vdo2{
+        position: absolute;
+        margin-top: -570px;
+        margin-left: 190px;
+        width: 154px;
+        height: 70px;
+    }
+    #vdo1{
+        position: absolute;
+        margin-top: -270px;
+        margin-left: -10px;
+        width: 180px;
+        height: 70px;
+    }
+    .main-habit-img-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .run{
+        flex-direction: column;
+        gap: 31px;
+
+    }
+    #sec-1{
+        margin-top: 0;
+    }
+    .habit-content h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .habit-content{
+        margin-bottom: 58px;
+    }
+    .habit-content p{
+        text-align: center;
+    }
+    .habit-img-content{
+        text-align: center;
+        padding: 0 60px;
+    }
+    .run-content h2{
+        font-size: 2rem;
+        line-height: 120%;
+    }
+    .run-img img{
+        width: 100%;
+        height: 170px;
+    }
+    .run{
+        padding: 33px;
+    }
+    .run .btn-primary{
+        width: 100%;
+    }
 }
