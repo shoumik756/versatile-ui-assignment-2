@@ -405,7 +405,7 @@ main{
     }
     .banner{
         flex-direction: column;
-        margin: 0 20px;
+        padding: 0 20px;
         /* margin: 0 20px; */
     }
     #vdo2{
