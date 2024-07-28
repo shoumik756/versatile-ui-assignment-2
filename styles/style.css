@@ -370,6 +370,10 @@ main{
 
 /* media query */
 @media screen and (max-width: 576px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
     .navbar{
         grid-template-columns: repeat(2,1fr);
         margin: 0 20px;
@@ -378,9 +382,10 @@ main{
         justify-content: space-between;
         background: linear-gradient(180deg, rgba(17, 17, 17, 1) 100%, rgba(119, 119, 119, 0) 0%);
      }
-     /* main{
+     main{
         padding: 0 20px;
-     } */
+
+     }
      .banner-btn{
         justify-content: space-between;
         margin-bottom: 48px;
