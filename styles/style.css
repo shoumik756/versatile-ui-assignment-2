@@ -413,6 +413,9 @@ main{
         /* padding: 0 20px; */
         margin: 0 20px;
     }
+    .banner-content, .habit-content{
+        padding: 0 20px;
+    }
     #vdo2{
         position: absolute;
         margin-top: -570px;
