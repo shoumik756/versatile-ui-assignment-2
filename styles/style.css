@@ -407,7 +407,7 @@ main{
     .banner{
         flex-direction: column;
         /* padding: 0 20px; */
-        margin: 0 20px;
+        /* margin: 0 20px; */
     }
     /* .banner-content{
         padding: 0 200px;
