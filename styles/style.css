@@ -379,7 +379,7 @@ main{
         background: linear-gradient(180deg, rgba(17, 17, 17, 1) 100%, rgba(119, 119, 119, 0) 0%);
      }
      main{
-        margin: 0 20px;
+        padding: 0 20px;
      }
      .banner-btn{
         justify-content: space-between;
