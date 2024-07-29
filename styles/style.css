@@ -461,8 +461,10 @@ input::placeholder{
     }
 
     .banner-btn {
-        justify-content: space-between;
+        width: 100%;
+        justify-content: start;
         margin-bottom: 48px;
+        gap: 14px;
     }
 
     .btn-primary,
