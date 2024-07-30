@@ -24,7 +24,7 @@
     padding: 0;
 }
 
-#sec-1 {
+#sec-1,#sec-4 {
     max-width: 1140px;
     margin: 0 auto;
     padding-top: 100px;
@@ -353,6 +353,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* transform: scale(-1.5); */
 }
 
 .run-img img {
@@ -436,6 +437,73 @@ input::placeholder{
 .btn-cal{
     margin-top: 34px;
 }
+/* Meet our team section style */
+#sec-4{
+    padding-bottom: 100px;
+}
+.team-container h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.team-container p{
+    font-size: 0.875rem;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.team-img-container{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    border-radius: 18px;
+}
+.row1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.row1 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 18px;
+    filter: brightness(60%);
+}
+.team-card{
+    position: relative;
+}
+.team-card-des{
+    position: absolute;
+    top: 87%;
+    left: 10%; 
+    color: white;
+    transform: translate(-20px, -20px);
+}
+.team-card-des h5{
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+.team-card-des p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.row2{
+    margin-top: 20px;
+}
+/* Footer section style */
+#footer{
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
 
 
 
@@ -591,5 +659,25 @@ input::placeholder{
     #field-1{
         display: grid;
         grid-template-columns: .5fr .5fr;
+    }
+    .team-container h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .team-container p{
+        font-size: 0.875rem;
+        line-height: 18px;
+        text-align: center;
+    }
+    .team-img-container{
+        margin: 0 20px;
+        margin-top: 35px;
+    }
+    .row1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-card img{
+        width: 100%;
     }
 }
