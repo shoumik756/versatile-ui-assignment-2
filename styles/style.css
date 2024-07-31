@@ -431,6 +431,9 @@ input,select,option{
     color: rgba(255, 255, 255, 0.6);
    
 }
+.select-ang{
+    border-right: 20px solid transparent;
+}
 input::placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
