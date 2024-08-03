@@ -34,7 +34,11 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-
+#sec-5{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 /* main {
     max-width: 1140px;
     margin: 0 auto;
@@ -361,6 +365,91 @@ main {
     height: 316px;
     border-radius: 18px;
 }
+/* Package section style */
+.packages-content h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.packages-content p{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 58px;
+    text-align: center;
+}
+#fit{
+    color: rgba(230, 83, 60, 1);
+}
+.Package-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    align-items: center;
+    border-radius: 18px;
+}
+.Package-container-img img{
+    border-radius: 18px;
+    width: 100%;
+    height: 600px
+}
+
+.packages h3{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.packages h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.packages h5{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.packages i{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.packages p{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.btnp1{
+    margin-top: 50px;
+    /* justify-items: center; */
+    width: 100%;
+}
+.btn-primary1:hover{
+    background-color: rgba(230, 83, 60, 1);
+}
+.btnp{
+    width: 100px;
+    height: 15px;
+    border: none;
+    border-radius: 15px;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /* BMI cal section style */
 #sec-3 {
@@ -722,5 +811,35 @@ hr{
     .footer-container-content{
         display: grid;
         gap: 25px;
+    }
+    #sec-5{
+        margin: 0 20px;
+    }
+    .packages-content h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .Package-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .btnp{
+        width: 100px;
+        height: 15px;
+        border: none;
+        border-radius: 15px;
+        
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .btnp1{
+        width: 100%;
+    }
+    .packages{
+        border: 1px solid white;
+        padding: 40px 20px;
+        border-radius: 18px;
     }
 }
