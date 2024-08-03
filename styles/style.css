@@ -431,7 +431,8 @@ main {
 }
 .btnp1{
     margin-top: 50px;
-    /* justify-items: center; */
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     width: 100%;
 }
 .btn-primary1:hover{
@@ -836,10 +837,12 @@ hr{
     }
     .btnp1{
         width: 100%;
+        color: rgba(255, 255, 255, 0.5);
     }
     .packages{
-        border: 1px solid white;
+        border: 1px solid rgba(255, 255, 255, 0.5);
         padding: 40px 20px;
         border-radius: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
     }
 }
