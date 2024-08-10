@@ -364,6 +364,8 @@ main {
     width: 366px;
     height: 316px;
     border-radius: 18px;
+    object-fit: none;
+    object-position: 68% 28%;
 }
 /* Package section style */
 .packages-content h2{
