@@ -8,7 +8,6 @@
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
-    /* background-color: black; */
     background-repeat: no-repeat;
 
 }
@@ -39,16 +38,6 @@
     margin: 0 auto;
     margin-top: 100px;
 }
-/* main {
-    max-width: 1140px;
-    margin: 0 auto;
-    
-  } */
-
-/* main > section {
-    margin-top: 100px;
-} */
-
 /* Shared style */
 .display-flex {
     display: flex;
@@ -92,7 +81,6 @@
 }
 
 header {
-    /* background-color: black; */
     background:linear-gradient(#141414, #202020, #000000);
 }
 
@@ -175,17 +163,6 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-
-/* .banner-img{
-    background-image: url("../images/Images\ 2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 580px;
-    width: 350px;
-} */
-
-
 #vdo1 {
     background-color: rgba(48, 48, 48, 0.54);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -225,7 +202,6 @@ main {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    /* position: absolute; */
 
 }
 
@@ -247,8 +223,6 @@ main {
     border-radius: 100%;
     background-color: rgba(230, 83, 60, 1);
 }
-
-
 
 #vdo3 #no {
     font-size: 2.5rem;
@@ -334,7 +308,6 @@ main {
 .run-content {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -452,14 +425,30 @@ main {
     justify-content: center;
 }
 
-
-
 /* BMI cal section style */
 #sec-3 {
     background-color: rgba(34, 34, 34, 1);
-    margin-top: 100px;
+    margin-top: 80px;
 }
-
+#sec-6{
+    max-width: 1140px;
+    margin: 0 30%;
+    margin-top: 80px;
+}
+.bmi-cal h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 14px;
+    text-align: left;
+}
+.bmi-cal p{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 58px;
+    text-align: left;
+}
 .bmi{
     max-width: 1140px;
     margin: 0 auto;
@@ -471,7 +460,6 @@ main {
     font-size: 1.75rem;
     font-weight: 900;
     color: white;
-    /* margin-bottom: 14px; */
 }
 table{
     border-collapse: collapse;
@@ -535,6 +523,7 @@ input::placeholder{
 /* Meet our team section style */
 #sec-4{
     padding-bottom: 100px;
+    
 }
 .team-container h2{
     font-size: 3rem;
@@ -689,14 +678,9 @@ hr{
 
     .banner {
         flex-direction: column;
-        /* border: 1px solid white; */
-        /* padding: 0 20px; */
         margin: 0 20px;
     }
 
-    /* .banner-content{
-        padding: 0 200px;
-    } */
     #vdo2 {
         position: absolute;
         margin-top: -570px;
@@ -848,6 +832,16 @@ hr{
         border-radius: 18px;
         border: 1px solid rgba(255, 255, 255, 0.5);
     }
+    #sec-6{
+        margin: 0 20px;
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
+    .bmi-cal h2{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    
 }
 
 /* medium size device */
